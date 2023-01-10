@@ -24,5 +24,10 @@ public partial class MainPage : ContentPage
 			Navigation.PushAsync(new Employees());
 		Console.WriteLine("test!");
     }
+
+    private void closeBtn_Clicked(object sender, EventArgs e)
+    {
+		Environment.Exit(0);
+    }
 }
 

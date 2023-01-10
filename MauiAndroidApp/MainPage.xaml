@@ -35,6 +35,15 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+
+            <Button
+                x:Name="closeBtn"
+                Text="Close app"
+                SemanticProperties.Hint="Close"
+                Clicked="closeBtn_Clicked"
+                HorizontalOptions="Center" />
+            
+
         </VerticalStackLayout>
     </ScrollView>
 
